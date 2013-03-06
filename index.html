@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+
+	<script type="text/javascript">
+
+	// Additional Info For Izkara 
+
+	$(document).ready(function(){	
+    	$('.more').hide().before('<a href="#" id="toggle-more" class="button">Additional Information</a>');
+		$('a#toggle-more').click(function() {
+			$('.more').slideToggle(500);
+			return false;
+		});
+	});
+
+	// Additional Info for CVB
+
+	$(document).ready(function(){	
+    	$('.more2').hide().before('<a href="#" id="toggle-more2" class="button">Additional Information</a>');
+		$('a#toggle-more2').click(function() {
+			$('.more2').slideToggle(500);
+			return false;
+		});
+	});
+
+	// Additional Employment History
+
+	$(document).ready(function(){	
+    	$('.Olderjobs').hide().before('<a href="#" id="toggle-Olderjobs" class="button">Additional Employment History</a>');
+		$('a#toggle-Olderjobs').click(function() {
+			$('.Olderjobs').slideToggle(500);
+			return false;
+		});
+	});
+</script>
+
+<head>
+	<title>Matt Watkajtys</title>
+</head>
+
+<body>
+
+<div class="container"> 
+	<div class = "sidebar">
+		<h1>Matt Watkajtys</h1>
+		<div id="img_box">
+			<img src="me.jpg">
+		</div>
+			
+		<div class = "contact">
+			<a href="mailto:watkajtys@gmail.com?Subject=Reaching%20Out">Email</a>
+			<p>555-555-5555</p>
+			<p>
+				12 Fake Street<br>
+				Fake City, Fake State<br>
+				USA
+			</p>
+			<div class="social">
+				<a href="https://twitter.com/mattwatkajtys" class="twitter-follow-button" data-show-count="false" data-dnt="true">Follow @mattwatkajtys on Twitter</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			</div>
+		</div>
+	</div>
+	
+
+	<div class = "main"> 
+		<h1>Employment History</h2> 
+		<h2>IZKARA.COM</h2>
+		<h3>CEO and FOUNDER</h3>
+		<h4>September 2011 - Present | Ithaca, New York</h4>
+		<p>CEO of Izkara, a specialty independent film distribution firm that actively acquires the best in film content and distributed said content via an online pay-per-view digital streaming model.</p>
+			
+			<div class="more">
+				<ul>
+					<li>Managed core team of two plus additional freelance developers and acquisition specialists</li>
+					<li>Contact sales agents and filmmakers to request screeners. View and evaluate said screeners to determine our level of interest</li>
+					<li>Negociate and secure digital licensing with content providers</li>
+					<li>Manage marketing efforts for Izkara</li>
+					<li>Manage daily operation including analytics, outreach, and workflow optimization</li>
+				</ul>
+			</div>
+
+		<hr>
+
+		<h2>Ithaca/Tompkins County Convention and Visitors Bureau</h2>
+		<h3>Visitor Services Specialist</h3>
+		<h4>November 2011 - September 2012 | Ithaca, New York</h4>
+		<p>Initial point of contact for visitors to the Ithaca area. Knowledgeable in Ithaca Wines, Waterfalls, and Attractions</p>
+		<div class="more2">
+			<ul>
+				<li>Assisted 40-80 visitors per day</li>
+				<li>Customer Service Interaction</li>
+				<li>Extensive phone system usage and standard office duties</li>
+				<li>Business to business interaction with local vendors.</li>
+			</ul>
+		</div>
+
+		<hr>
+
+		<div class="Olderjobs">
+			<h2>Fuse Magazine</h2>
+			<h3>Photo Editor</h3>
+			<h4>November 2008 - May 2011 | Ithaca, New York</h4>
+			<p>Managed all photo and multimedia assets for Fuse Magazine, a student recruitment magazine for Ithaca College.</p>
+			<ul>
+				<li>Managed a photo and video department of six</li>
+				<li>Determine media requirements for active stories. Facilitated creation of media content for print and web</li>
+			</ul>	
+
+			<hr>
+
+			<h2>Upstate Cerebral Palsy</h2>
+			<h3>Digital Content Producer</h3>
+			<h4>May 2010 - August 2010 | Utica, New York</h4>
+			<p>Assisted with relaunch of the Upstate Cerebral Palsy website and populated site with original content.</p>
+			<ul>
+				<li>Determined video requirements for site relaunch</li>
+				<li>Coordinated video production across departments</li>
+				<li> Filmed, edited, and uploaded media packages for web integration</li>
+			</ul>
+
+			<hr>
+
+			<h2>Warner Bros. Studios</h2>
+			<h3>Intern, Worldwide Interactive Marketing</h3>
+			<h4>March 2010 - May 2010 | Los An, New York</h4>
+			<ul>
+				<li>Compiled executive summaries for interactive media buys</li>
+				<li>Tracked current interactive media implementations</li>
+				<li> Reseached emerging technologies and interactive media trends and pitched possible use cases to executive staff</li>
+			</ul>
+		</div>
+
+		<hr>
+
+		<div class="education">
+			<h1>Education</h1>
+			<h2>Ithaca College</h2>
+			<h3>B.S., Cinema and Photography</h3>
+			<h4>2007 - 2011</h4>
+		</div>
+
+	</div> 
+</div>
+</body>
+
+</html>
